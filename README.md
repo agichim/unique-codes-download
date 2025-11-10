@@ -2,7 +2,7 @@ Claude AI generated WordPress plugin to create unique codes and use them to down
 
 ## Installation
 
-1. Create Plugin File
+### 1. Create Plugin File
 
 Navigate to plugins directory
 `cd /var/www/wordpress/wp-content/plugins/`
@@ -14,20 +14,20 @@ Create plugin directory
 Create the plugin file
 sudo nano secure-download-system.php
 
-2. Copy Plugin Code
+### 2. Copy Plugin Code
 
 Copy the entire plugin code from the .php file in the repo.
 Paste it into secure-download-system.php
 Save and exit.
 
-3. Set Permissions
+### 3. Set Permissions
 ```
 sudo chown -R www-data:www-data /var/www/wordpress/wp-content/plugins/secure-download-system
 sudo chmod 755 /var/www/wordpress/wp-content/plugins/secure-download-system
 sudo chmod 644 /var/www/wordpress/wp-content/plugins/secure-download-system/secure-download-system.php
 ```
 
-4. Activate Plugin
+### 4. Activate Plugin
 
 Go to WordPress Admin → Plugins
 Find "Secure Code Download System"
