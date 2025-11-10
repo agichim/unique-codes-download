@@ -1,4 +1,3 @@
-# unique-codes-download
 Claude AI generated WordPress plugin to create unique codes and use them to download a file. One code per download.
 
 ## Installation
