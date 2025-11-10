@@ -118,3 +118,62 @@ CSV file downloads with format:
 2. 15-minute grace period - User can retry download 3 times within 15 minutes if it fails
 3. IP-locked - Only the person who first used the code can retry
 4. Attempts tracked - Maximum 3 download attempts per code
+
+## Customization
+### Style the Download Form
+#### Option A: Use Plugin CSS Editor
+
+1. Scroll to "🎨 Custom CSS Styling"  
+2. Edit CSS in the textarea  
+3. Click "Save Custom CSS"  
+4. Preview on your download page  
+
+#### Option B: Use Elementor CSS
+
+1. Check ✅ "Disable plugin CSS"
+2. Click "Save Custom CSS"
+3. Style the form in Elementor's Custom CSS panel
+4. No conflicts with plugin styles
+
+CSS Classes Available:
+
+`.sds-download-form` - Main container  
+`.sds-download-form h3` - Heading  
+`.sds-download-form input[type="text"]` - Input field  
+`.sds-download-form button` - Submit button  
+`.sds-message.error` - Error messages  
+`.sds-message.success` - Success messages  
+
+## Maintenance & Troubleshooting
+
+### Delete All Codes (Keep Table Structure)
+
+1. Go to "⚠️ Danger Zone"
+2. Click "🗑️ Delete All Codes"
+3. Confirm the warning
+
+All codes deleted, table structure intact  
+Generate new codes as needed
+
+### Reset Database (Fix Structure Issues)
+
+1. Go to "⚠️ Danger Zone"
+2. Click "🔄 Reset Database Table"
+3. Confirm the warning
+
+Table dropped and recreated with correct structure  
+All codes deleted - generate new ones
+
+## Use Reset When:
+
+Table wasn't created during plugin activation
+Upgrading from old plugin version
+Database structure is corrupted
+Getting persistent errors
+
+## Check File Setup
+
+File path shown in setup checklist
+File size displayed when detected
+Must be named exactly: download.zip
+Must be in: /wp-content/uploads/secure-files/
