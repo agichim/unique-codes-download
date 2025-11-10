@@ -1,4 +1,3 @@
-# unique-codes-download
 Claude AI generated WordPress plugin to create unique codes and use them to download a file. One code per download.
 
 ## Installation
@@ -166,14 +165,14 @@ All codes deleted - generate new ones
 
 ## Use Reset When:
 
-Table wasn't created during plugin activation
-Upgrading from old plugin version
-Database structure is corrupted
-Getting persistent errors
+Table wasn't created during plugin activation  
+Upgrading from old plugin version  
+Database structure is corrupted  
+Getting persistent errors  
 
 ## Check File Setup
 
-File path shown in setup checklist
-File size displayed when detected
-Must be named exactly: download.zip
-Must be in: /wp-content/uploads/secure-files/
+File path shown in setup checklist  
+File size displayed when detected  
+Must be named exactly: `download.zip  `
+Must be in: `/wp-content/uploads/secure-files/  `
